@@ -1,0 +1,6 @@
+<div id="app" class="columns">
+    <div class="column">
+      <button class="is-primary button" @click="shuffle">Shuffle!</button>
+      <tweet-component v-for="tweet in tweets" :tweet="tweet" />
+    </div>
+  </div>
